@@ -15,8 +15,8 @@
 - mvn spring-boot:run
 
 ###
--POST = localhost:8080/api/users = добавление пользователя
--DELETE = localhost:8080/api/users/{userId} = удаление пользователя 
--GET = localhost:8080/api/users/{email} = поиск пользователя по email
+- POST = localhost:8080/api/users = добавление пользователя
+- DELETE = localhost:8080/api/users/{userId} = удаление пользователя 
+- GET = localhost:8080/api/users/{email} = поиск пользователя по email
 
 
