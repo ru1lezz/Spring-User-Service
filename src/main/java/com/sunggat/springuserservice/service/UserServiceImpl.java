@@ -29,7 +29,7 @@ public class UserServiceImpl implements UserService {
     public void saveUser(User user) {
         String encodedPassword =  bCryptPasswordEncoder.encode(user.getPassword());
         user.setPassword(encodedPassword);
-        userDAO.addUser(user);
+        userDAO.saveUser(user);
     }
 
     @Transactional
