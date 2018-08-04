@@ -21,7 +21,7 @@ public class UserRestController {
 
     @PostMapping("/users")
     public void addUser(@RequestBody User user) {
-        userService.addUser(user);
+        userService.saveUser(user);
     }
 
     @GetMapping("/users/{email}")
